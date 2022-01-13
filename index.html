@@ -2,28 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>My first landing page</title>
+        <title>AlphaBuddy - Your personal gym assistant!</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet" type="text/css">
         <link href="styles\style.css" rel="stylesheet" type="text/css">
     </head>
-
     <body>
         <h1>AlphaBuddy</h1>
         <img src="images\Saly-40.png" alt="Alphabuddy icon">
-
         <h2>Your personal assistant</h2>
-
         <ul>
             <li>Help you accomplish your goals.</li>
             <li>Teach you the correct way to execute your exercises.</li>
             <li>Allows you to keep track of your workouts easily.</li>
             <li>And so much more...</li>
-        </ul>
-        
+        </ul> 
         <p> Leave your contact information to dive into this new era of exercising:</p>
-        <button>Change user</button>
+        <form action="results.html" method="GET">
+            <div>
+                <label for="name">Name</label>
+                <input name="Name" id="name" placeholder="Your name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input name="Email" id="email" type="email" placeholder="example@email.com" required>  
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
         <script src="scripts/main.js"></script>
-
     </body>
 </html>
