@@ -1,1 +1,1 @@
-medzdev.github.io
+https://medzdev.github.io/
