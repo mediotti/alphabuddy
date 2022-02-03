@@ -18,20 +18,27 @@
             <li>And so much more...</li>
         </ul> 
         <p> Leave your contact information to dive into this new era of exercising:</p>
-        <form action="results.html" method="GET">
+        <form action="insert.php" method="post">
             <div>
-                <label for="name">Name</label>
-                <input name="leadName" id="name" placeholder="Your name" required>
+                <label for="firstName">First Name</label>
+                <input name="firstName" id="name" placeholder="Your name" required>
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input name="lastName" id="name" placeholder="Your name" required>
+            </div>
+            <div>
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" name="phoneNumber" id="name" placeholder="(11)9xxxx-xxxx" pattern="[0-9]{11}" required>
             </div>
             <div>
                 <label for="email">Email</label>
-                <input name="leadEmail" id="email" type="email" placeholder="example@email.com" required>  
+                <input name="leadEmail" id="email" type="email" placeholder="example@email.com"  required>  
             </div>
             <div>
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button>
             </div>
         </form>
-        <script src="scripts/main.js"></script>
     </body>
 </html>
