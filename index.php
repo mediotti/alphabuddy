@@ -5,7 +5,7 @@
         <title>AlphaBuddy - Your personal gym assistant!</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet" type="text/css">
-        <link href="styles\style.css" rel="stylesheet" type="text/css">
+        <link href="styles\style.scss" rel="stylesheet" type="text/css">
     </head>
     <body>
         <h1>AlphaBuddy</h1>
